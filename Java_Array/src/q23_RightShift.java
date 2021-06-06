@@ -1,4 +1,4 @@
-//Right Shifting for given number of times//
+  //Right Shifting for given number of times//
 
 import java.util.Scanner;
 

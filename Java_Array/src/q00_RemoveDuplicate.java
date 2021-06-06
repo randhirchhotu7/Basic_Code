@@ -21,9 +21,9 @@ public class q00_RemoveDuplicate
 	{  
 		int[] temp = new int[arr.length];  
 		int k = 0; 
-		for (int i=0;i<arr.length-2;i++)
+		for (int i=0;i<arr.length;i++)
 		{  
-			for(int j=i+1;j<arr.length-1;j++)
+			for(int j=i+1;j<arr.length;j++)
 			{
 				if (arr[i]==arr[j] && arr[i]!=-1)
 				{  

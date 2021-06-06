@@ -17,7 +17,7 @@ public class q01_SearchAnElement
 		System.out.print("\n"+"Enter a element to search : ");
 		int elmt = sc.nextInt();
 		int flag=0,pos=0;
-		for(int i=0;i<num;i++)
+		for(int i=0;i<arr.length;i++)
 		{
 			if(arr[i]==elmt)
 			{
