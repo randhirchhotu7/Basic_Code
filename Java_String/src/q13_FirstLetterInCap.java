@@ -10,8 +10,8 @@ public class q13_FirstLetterInCap
 		char ch[]=str.toCharArray();
 		for(int i=0;i<ch.length;i++)
 		{
-//			if( i==0 || (ch[i]!=' ' && ch[i-1]==' ') )
-			if( i==0 || (ch[i-1]==' ') )
+			if( i==0 || (ch[i]!=' ' && ch[i-1]==' ') )
+//			if( i==0 || (ch[i-1]==' ') )
 			{
 				if(ch[i]>='a' && ch[i]<='z')
 				{
@@ -27,6 +27,7 @@ public class q13_FirstLetterInCap
 			}
 		}
 		
+		//convert back char array to string
 		str = new String(ch);
 		System.out.print("Required output : "+str);
 	}

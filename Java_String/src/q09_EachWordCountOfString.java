@@ -27,7 +27,7 @@ public class q09_EachWordCountOfString
 			if(val!=" ")
 			{
 				
-				System.out.println(val+" "+count);
+				System.out.println(val+" : "+count);
 			}
 		}
 		

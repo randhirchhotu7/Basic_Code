@@ -22,9 +22,9 @@ public class q15_SwapEach1stAndLstcharOfWord
 			ch[k]=ch[j];
 			ch[j]=temp;
 			
-			/*System.out.print("k-->"+k+"\n");
+			System.out.print("k-->"+k+"\n");
 			System.out.print("j-->"+j+"\n");
-			System.out.println(i);*/
+			System.out.println(i);
 		}
 		str = new String(ch);
 		System.out.println("Required output : "+str);

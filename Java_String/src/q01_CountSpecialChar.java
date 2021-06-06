@@ -25,7 +25,7 @@ public class q01_CountSpecialChar
 		System.out.println("Plz Enter a string : ");
 		String str = sc.nextLine();
 		System.out.println("Enter A char to find : ");
-		char ch = sc.next().charAt(0);			// How to read a single character in java
+		char ch = sc.next().charAt(0);	//to read a single character in java
 		int count = CountChar(str,ch);
 		System.out.println("Total number of times "+ch+" Present is : "+count);
 	}

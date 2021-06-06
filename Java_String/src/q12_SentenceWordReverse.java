@@ -1,3 +1,4 @@
+
 //	Each word of sentence is reversed without reversing whole string
 
 import java.util.Scanner;
@@ -17,8 +18,10 @@ public class q12_SentenceWordReverse
 			while(i<n && ch[i]!=' ')
 			{
 				i++;
+//				System.out.println("i->"+i);
 			}
 			int j=i-1;
+//			System.out.println("j->"+j);
 			while(j>=k)
 			{
 				res+=ch[j];
